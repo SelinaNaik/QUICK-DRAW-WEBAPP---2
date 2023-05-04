@@ -1,0 +1,57 @@
+#user_doodle {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    color: darkblue;
+}
+
+#user_percent {
+    font-family:fantasy;
+    font-style:unset;
+    font-size: 20px;
+    color: darkred;
+}
+
+#user_draw {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    color: darkgreen;
+}
+
+p {
+    padding-top:20px;
+}
+
+canvas {
+    border: 7px solid whitesmoke;
+    border-radius: 18px;
+    margin-top: 80px;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 10px 10px 100px rgb(58, 73, 75);}
+    to {box-shadow: 10px 10px 100px rgb(70, 53, 102);}
+}
+
+#show_sketch {
+    float: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#score {
+    float: left;
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(51, 0, 61);
+}
+
+#timer {
+    margin-left: 1045px;
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 60, 95);
+}
